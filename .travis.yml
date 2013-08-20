@@ -1,6 +1,7 @@
 rvm:
   - 1.9.3
   - 2.0.0
+  - jruby
 gemfile:
   - gemfiles/rails-3.2/Gemfile.postgresql
   - gemfiles/rails-3.2/Gemfile.sqlite3
@@ -26,3 +27,4 @@ matrix:
     - gemfile: gemfiles/rails-edge/Gemfile.postgresql
     - gemfile: gemfiles/rails-edge/Gemfile.sqlite3
     - gemfile: gemfiles/rails-edge/Gemfile.mysql2
+    - rvm: jruby
